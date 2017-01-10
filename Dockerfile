@@ -1,4 +1,4 @@
-FROM golang:1.4.2
+FROM index.tenxcloud.com/docker_library/golang:1.4.2
 
 ADD . $GOPATH/src
 
